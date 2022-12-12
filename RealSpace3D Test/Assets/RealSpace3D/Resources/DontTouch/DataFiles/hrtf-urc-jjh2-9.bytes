@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRealSpace3D_ReflectionCoefficients xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RealSpace3D_ReflectionCoefficients>
+    <ReflectionMaterial>Default-Material</ReflectionMaterial>
+    <Coefficient>0</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+    <ReflectionMaterial>Ground</ReflectionMaterial>
+    <Coefficient>0</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+    <ReflectionMaterial>Player</ReflectionMaterial>
+    <Coefficient>0</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+    <ReflectionMaterial>Wood</ReflectionMaterial>
+    <Coefficient>0.7</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+    <ReflectionMaterial>Tile</ReflectionMaterial>
+    <Coefficient>0.55</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+  <RealSpace3D_ReflectionCoefficients>
+    <ReflectionMaterial>Wood Creaky</ReflectionMaterial>
+    <Coefficient>0.7</Coefficient>
+  </RealSpace3D_ReflectionCoefficients>
+</ArrayOfRealSpace3D_ReflectionCoefficients>

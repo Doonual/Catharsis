@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRealSpace3D_VirtualRoomPresets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RealSpace3D_VirtualRoomPresets>
+    <Type>Test level_Room_0</Type>
+    <LeftWall>Ground</LeftWall>
+    <RightWall>Wood Creaky</RightWall>
+    <FrontWall>Ground</FrontWall>
+    <BackWall>Ground</BackWall>
+    <Ceiling>Wood Creaky</Ceiling>
+    <Floor>Wood Creaky</Floor>
+  </RealSpace3D_VirtualRoomPresets>
+  <RealSpace3D_VirtualRoomPresets>
+    <Type>Test level_Room_1</Type>
+    <LeftWall>Ground</LeftWall>
+    <RightWall>Ground</RightWall>
+    <FrontWall>Wood Creaky</FrontWall>
+    <BackWall>Wood Creaky</BackWall>
+    <Ceiling>Ground</Ceiling>
+    <Floor>Ground</Floor>
+  </RealSpace3D_VirtualRoomPresets>
+</ArrayOfRealSpace3D_VirtualRoomPresets>
