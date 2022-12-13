@@ -10,6 +10,8 @@ public class FootstepController : MonoBehaviour {
 	AudioClip[] footstepAudio;
 
 	public float stepSize;
+	public float stepVariance;
+	float thisStepSize;
 	float stepCount;
 	bool otherDone;
 
@@ -17,7 +19,8 @@ public class FootstepController : MonoBehaviour {
 	PlayerController playerController;
 
 	void Start() {
-		stepCount = stepSize;
+		thisStepSize = stepSize + Random.Range(-stepVariance / 2f, stepVariance / 2f);
+		stepCount = thisStepSize;
 		otherDone = false;
 		rigidBody = GetComponent<Rigidbody>();
 		playerController = GetComponent<PlayerController>();
@@ -26,11 +29,12 @@ public class FootstepController : MonoBehaviour {
 
 	void Update() {
 
-		Ray groundRay = new Ray(transform.position, Vector3.down);
+		Ray groundRay = new Ray(transform.position + new Vector3(0f, 0.5f, 0f), Vector3.down);
 		RaycastHit rayHit;
 		LayerMask mask = LayerMask.GetMask("Footsteps");
 		Physics.Raycast(groundRay, out rayHit, 999f, mask.value);
 		GameObject groundObj = rayHit.collider.gameObject;
+		
 		AudioProperties groundAudioProp = groundObj.GetComponent<AudioProperties>();
 		if (groundAudioProp != null) {
 
@@ -63,14 +67,15 @@ public class FootstepController : MonoBehaviour {
 		}
 
 		stepCount -= Time.deltaTime * (rigidBody.velocity - new Vector3(0f, rigidBody.velocity.y, 0f)).magnitude;
-		if (stepCount <= stepSize / 2f && otherDone == false) {
+		if (stepCount <= thisStepSize / 2f && otherDone == false) {
 			otherDone = true;
 			rightFootAudio.rs3d_LoadAudioClip(footstepAudio[Random.Range(0, footstepAudio.Length)]);
 			rightFootAudio.rs3d_PlaySound();
 		}
 		if (stepCount <= 0f) {
 			otherDone = false;
-			stepCount = stepSize;
+			thisStepSize = stepSize + Random.Range(-stepVariance / 2f, stepVariance / 2f);
+			stepCount = thisStepSize;
 			leftFootAudio.rs3d_LoadAudioClip(footstepAudio[Random.Range(0, footstepAudio.Length)]);
 			leftFootAudio.rs3d_PlaySound();
 		}
