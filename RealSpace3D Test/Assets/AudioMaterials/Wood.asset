@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c456afd0a359fb847838b6aeb075026f, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  audioName: Wood
+  walkAudio:
+  - {fileID: 8300000, guid: 8de6e9a5bbc9246479464b2f0b5275e8, type: 3}
+  - {fileID: 8300000, guid: 0620b2cc0d28d874682b6233c40194d2, type: 3}
+  - {fileID: 8300000, guid: 1b4a34e5681d238489cffd80c0615753, type: 3}
+  - {fileID: 8300000, guid: 4dcfd2b3d9f58ef4d8fe977cdb2f62bd, type: 3}
+  - {fileID: 8300000, guid: 6bbe940106c7d7343aef8953919f9e3c, type: 3}
+  runAudio:
+  - {fileID: 8300000, guid: 746bbc1e91afa0b4a8550543b8a1d348, type: 3}
+  - {fileID: 8300000, guid: 4da7390f1a765f141a16e70d2a5146b9, type: 3}
+  - {fileID: 8300000, guid: 50bd080d3665fc64293cab0fae0435d4, type: 3}
+  - {fileID: 8300000, guid: aa86af8925365f04e917668a6976ea75, type: 3}
+  - {fileID: 8300000, guid: cccf99b1c82746e46961e66de1b98d02, type: 3}
+  sprintStopAudio:
+  - {fileID: 8300000, guid: d4dda9dca0c0bab42b41751fd998cb4d, type: 3}

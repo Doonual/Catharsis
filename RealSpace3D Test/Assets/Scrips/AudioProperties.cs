@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class AudioProperties : MonoBehaviour {
 
-	
+	public AudioMaterial material;
 
-	public AudioPropertiesPreset.AudioMaterial material;
-
-	public AudioClip[] footsteps;
-	public AudioClip[] bump;
+	private void Awake() {
+		gameObject.layer = 11;
+	}
 
 }

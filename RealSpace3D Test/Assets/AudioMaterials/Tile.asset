@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c456afd0a359fb847838b6aeb075026f, type: 3}
+  m_Name: Tile
+  m_EditorClassIdentifier: 
+  audioName: Tile
+  walkAudio:
+  - {fileID: 8300000, guid: a65d70acd9f823f488e1a7fc3ac60c3e, type: 3}
+  - {fileID: 8300000, guid: ceb2ce47b31946d4c9dc9a5a2ce5b2e5, type: 3}
+  - {fileID: 8300000, guid: bd73a855aee6d2e429b65269771f5190, type: 3}
+  - {fileID: 8300000, guid: ed169337e4f866f4abe13f3ebc4d0268, type: 3}
+  - {fileID: 8300000, guid: 4c1ffd714e0811d42a2aa11571288d48, type: 3}
+  runAudio:
+  - {fileID: 8300000, guid: 8d40ab92c9078814fa1b30eb5ccfa41a, type: 3}
+  - {fileID: 8300000, guid: 6de52ce664c35cb4b9d271dbd525e5b7, type: 3}
+  - {fileID: 8300000, guid: fa672bdf184a8e6449d85c082341c1c4, type: 3}
+  - {fileID: 8300000, guid: 8f217b32622e6744cb8e2150b4bd1b59, type: 3}
+  - {fileID: 8300000, guid: a5ced06cf8266e242b0b7f0c0d0b96aa, type: 3}
+  sprintStopAudio:
+  - {fileID: 8300000, guid: b48cda236d0903c43be62390187fe548, type: 3}

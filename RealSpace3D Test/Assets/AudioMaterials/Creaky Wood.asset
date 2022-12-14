@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c456afd0a359fb847838b6aeb075026f, type: 3}
+  m_Name: Creaky Wood
+  m_EditorClassIdentifier: 
+  audioName: Creaky Wood
+  walkAudio:
+  - {fileID: 8300000, guid: 8a392b8cc5674114783382a27d551c33, type: 3}
+  - {fileID: 8300000, guid: 168d8bd626749374b8e8cdc9d0bef65d, type: 3}
+  - {fileID: 8300000, guid: 9c1f4978b671d884cbaebd738d531f5c, type: 3}
+  runAudio:
+  - {fileID: 8300000, guid: 9ff142adb5ebe584c9138ac23899b409, type: 3}
+  - {fileID: 8300000, guid: 112d5013b9f53e64db0a40791b937520, type: 3}
+  - {fileID: 8300000, guid: 298ea19ca3ebfa64194d227abe34f80d, type: 3}
+  sprintStopAudio: []
